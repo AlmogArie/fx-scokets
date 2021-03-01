@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Switch } from 'react-router-dom';
+import './style/global.scss';
+import Header from './cmps/Header'
+import Socket from './pages/Socket'
+import Footer from './cmps/Footer'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex column align-center">
+      <Header />
+      <Switch>
+      <Socket/>
+      </Switch>
+      <Footer/>
     </div>
   );
 }

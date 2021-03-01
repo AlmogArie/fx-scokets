@@ -1,0 +1,42 @@
+.btns {
+    width: 100%;
+
+
+    .period-btn {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        color: rgb(153, 153, 153);
+        border: none;
+        border-bottom: 2px solid rgb(153, 153, 153);
+        height: 45px;
+        width: 125px;
+        background-color: #fff;
+        outline: none;
+    }
+
+    .period-btn:hover {
+        color: black;
+        transition: all 0.4s ease-in-out;
+        border-bottom: 2px solid black;
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .btns {
+        margin: 0;
+        border-bottom: 2px solid rgb(153, 153, 153);
+        max-width: 365px;
+
+        .period-btn {
+            font-size: 17px;
+            border-bottom: none;
+        }
+    }
+
+
+}
