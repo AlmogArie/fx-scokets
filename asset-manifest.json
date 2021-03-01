@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fx-scokets/static/css/main.0ea08397.chunk.css",
+    "main.js": "/fx-scokets/static/js/main.1fa2f4d8.chunk.js",
+    "main.js.map": "/fx-scokets/static/js/main.1fa2f4d8.chunk.js.map",
+    "runtime-main.js": "/fx-scokets/static/js/runtime-main.93f18d83.js",
+    "runtime-main.js.map": "/fx-scokets/static/js/runtime-main.93f18d83.js.map",
+    "static/js/2.042935fa.chunk.js": "/fx-scokets/static/js/2.042935fa.chunk.js",
+    "static/js/2.042935fa.chunk.js.map": "/fx-scokets/static/js/2.042935fa.chunk.js.map",
+    "index.html": "/fx-scokets/index.html",
+    "static/css/main.0ea08397.chunk.css.map": "/fx-scokets/static/css/main.0ea08397.chunk.css.map",
+    "static/js/2.042935fa.chunk.js.LICENSE.txt": "/fx-scokets/static/js/2.042935fa.chunk.js.LICENSE.txt",
+    "static/media/logo-full.2e319826.svg": "/fx-scokets/static/media/logo-full.2e319826.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93f18d83.js",
+    "static/js/2.042935fa.chunk.js",
+    "static/css/main.0ea08397.chunk.css",
+    "static/js/main.1fa2f4d8.chunk.js"
+  ]
+}
